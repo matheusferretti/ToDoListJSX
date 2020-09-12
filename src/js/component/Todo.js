@@ -1,7 +1,7 @@
 import React from "react";
 
-const Todo = () => {
-	return <h1>To-Do Component</h1>;
+const Todo = ({ todo }) => {
+	return <h1>{todo}</h1>;
 };
 
 export default Todo;
