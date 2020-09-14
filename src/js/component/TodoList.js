@@ -11,6 +11,11 @@ const TodoList = () => {
 	const handleClick = e => console.log("click");
 	return (
 		<>
+			<form onSubmit={e => e.preventDefault()}>
+				<input type="text" name="todo" onChange={handleChange}>
+					<button onClick={handleClick}>Save</button>
+				</input>
+			</form>
 			{todos.map((value, index) => (
 				<Todo todo={value.todo} />
 			))}
