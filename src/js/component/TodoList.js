@@ -7,6 +7,8 @@ const TodoList = () => {
 		{ todo: "todo2" },
 		{ todo: "todo3" }
 	]);
+	// const handleChange =
+	const handleClick = e => console.log("click");
 	return (
 		<>
 			{todos.map((value, index) => (
