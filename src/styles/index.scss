@@ -40,3 +40,21 @@ h1 {
     width: 100%;
 }
 
+form input {
+    height: 25px;
+    vertical-align: auto;
+    display: flex;
+    border-radius: 5%;
+}
+
+form button{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    height: 20px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: darkslategray;
+    color: white;
+}
+

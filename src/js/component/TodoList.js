@@ -2,13 +2,20 @@ import React, { useState } from "react";
 import Todo from "./Todo";
 
 const TodoList = () => {
+    const [singleTodo, setsingleTodo] = useState({})
 	const [todos, setTodos] = useState([
-		{ todo: "todo1" },
-		{ todo: "todo2" },
-		{ todo: "todo3" }
+		{ label: "make bed" },
+		{ label: "brush teeth" },
+		{ label: "walk doggo" }
 	]);
-	// const handleChange =
-	const handleClick = e => console.log("click");
+	const handleChange = e => {
+        setSingleTodo({[
+
+        ]})
+    }
+	// const handleClick = e => {
+    //     if(Object.keys(singleTodo).length === 0 || singleTtodo.todo.trim() === "")
+    // }
 	return (
 		<>
 			<form onSubmit={e => e.preventDefault()}>

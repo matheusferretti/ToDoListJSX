@@ -1,6 +1,6 @@
 import React from "react";
 
-const Todo = ({ todo }) => {
+const Todo = ({ todo, index, deleteTodo }) => {
 	return (
 		<>
 			<div className="todo">
